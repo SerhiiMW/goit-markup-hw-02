@@ -1,0 +1,7 @@
+:root {
+    --basecolor: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--basecolor);
+}
