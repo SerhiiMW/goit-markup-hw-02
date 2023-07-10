@@ -40,12 +40,14 @@ ul {
 .list {
   list-style: none;
 }
-.link {
+.page-link {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: var(--weight500);
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.link {
   text-decoration: none;
 }
 .contacts .link {
@@ -106,10 +108,10 @@ ul {
 .title-make {
   color: var(--navyblue);
   text-align: center;
-  font-size: 36px;
+  font-size: 20px;
   font-weight: var(--weight500);
-  line-height: 1.11;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.32px;
   text-transform: capitalize;
 }
 .section-team {
@@ -164,4 +166,3 @@ ul {
   color: #ffffff;
   background: var(--ocean);
 }
-
