@@ -109,7 +109,7 @@ ul {
   font-size: 36px;
   font-weight: var(--weight700);
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.4px;
   text-transform: capitalize;
 }
 .section-team {
@@ -149,7 +149,7 @@ ul {
 }
 /* Portfolio */
 .button-portfolio {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--iris);
   text-align: center;
   font-size: 16px;
