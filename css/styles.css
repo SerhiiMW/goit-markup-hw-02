@@ -6,6 +6,10 @@
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
   --ocean: #404bbf;
+  --weight400: 400;
+  --weight500: 500;
+  --weight700: 700;
+  --weight800: 800;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -17,14 +21,14 @@ ul {
 }
 .link {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--weight500);
   line-height: 1.5;
 }
 .link-logo {
   color: var(--basecolor);
   font-family: Raleway;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: var(--weight800);
   line-height: 1.167;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -35,7 +39,7 @@ ul {
 .contacts {
   color: var(--slate);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--weight400);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -43,7 +47,7 @@ h1 {
   background-color: var(--basecolor);
   color: var(--white);
   font-size: 56px;
-  font-weight: 700;
+  font-weight: var(--weight700);
   line-height: 1.071;
   letter-spacing: 1.12px;
   text-align: center;
@@ -52,7 +56,7 @@ h1 {
   color: var(--white);
   align-items: flex-start;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--weight500);
   line-height: 1.5;
   letter-spacing: 0.64px;
   border-radius: 4px;
@@ -65,7 +69,7 @@ h1 {
   align-items: center;
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--weight500);
   line-height: 1.5;
   letter-spacing: 0.64px;
   border-radius: 4px;
@@ -84,7 +88,7 @@ h1 {
 h3 {
   color: var(--basecolor);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: var(--weight500);
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -92,7 +96,7 @@ h2 {
   color: var(--basecolor);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: var(--weight700);
   line-height: 1.111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
@@ -100,7 +104,7 @@ h2 {
 p {
   color: var(--slate);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--weight400);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
