@@ -1,7 +1,109 @@
 :root {
-    --basecolor: #434455;
+  --basecolor: #434455;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --white: #fff;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--basecolor);
+  background-color: var(--white);
+}
+ul {
+  list-style-type: none;
+}
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.link-logo {
+  color: var(--basecolor);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.167;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.link-logo-web {
+  color: var(--iris);
+}
+.contacts {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+h1 {
+  background-color: var(--basecolor);
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+.button-service {
+  color: var(--white);
+  align-items: flex-start;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.button-portfolio {
+  color: var(--iris);
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+  background: var(--cloud);
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white);
+  border-radius: 4px;
+  background: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+h3 {
+  color: var(--basecolor);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+h2 {
+  color: var(--basecolor);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+p {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.text-features {
+  color: var(--white);
 }
