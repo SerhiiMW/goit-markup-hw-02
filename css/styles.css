@@ -107,7 +107,7 @@ ul {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
-  font-weight: var(--weight700);
+  font-weight: var(--weight500);
   line-height: 1.11;
   letter-spacing: 0.4px;
   text-transform: capitalize;
@@ -164,8 +164,4 @@ ul {
   color: #ffffff;
   background: var(--ocean);
 }
-.title-make {
-  font-weight: var(--weight500);
-  font-size: 20px;
-  line-height: 1.2;
-}
+
