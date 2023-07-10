@@ -108,9 +108,9 @@ ul {
 .title-make {
   color: var(--navyblue);
   text-align: center;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: var(--weight500);
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.4px;
   text-transform: capitalize;
 }
@@ -119,10 +119,10 @@ ul {
 }
 .title-team {
   color: var(--navyblue);
-  font-size: 20px;
-  line-height: 1.12;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.4px;
   text-align: center;
   text-transform: capitalize;
 }
