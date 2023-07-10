@@ -21,18 +21,21 @@ body {
 ul {
   list-style-type: none;
 }
-.link-logo {
+.logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: var(--weight800);
   line-height: 1.17;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .link-logo-web {
   color: var(--navyblue);
+}
+.link-logo-studio {
+  color: var(--cloud);
 }
 .list {
   list-style: none;
@@ -42,8 +45,11 @@ ul {
   font-size: 16px;
   font-weight: var(--weight500);
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.32px;
   text-decoration: none;
+}
+.contacts .link {
+  color: var(--slate);
 }
 .link:hover,
 .link:focus {
@@ -66,7 +72,7 @@ ul {
   font-size: 56px;
   font-weight: var(--weight700);
   line-height: 1.07;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
   text-align: center;
 }
 .button-service {
@@ -114,7 +120,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
   text-transform: capitalize;
 }
 .team-list {
@@ -125,13 +131,13 @@ ul {
   font-weight: var(--weight500);
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
 }
 .prof-card {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
 }
 .footer-info {
   background-color: var(--navyblue);
@@ -139,7 +145,7 @@ ul {
 .footer-text {
   color: var(--cloud);
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
 }
 /* Portfolio */
 .button-portfolio {
@@ -149,7 +155,7 @@ ul {
   font-size: 16px;
   font-weight: var(--weight500);
   line-height: 1.5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.64px;
   background: var(--cloud);
   cursor: pointer;
 }
